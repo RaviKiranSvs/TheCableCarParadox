@@ -1,0 +1,26 @@
+<resources>
+
+    <color name="colorBar">#ffff55</color>
+    <color name="colorOther">#000</color>
+    <color name="colorText">#000000</color>
+    <color name="colorLink">#00f</color>
+
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowEnterTransition">@transition/explode</item>
+        <item name="android:windowExitTransition">@transition/explode</item>
+
+        <item name="colorPrimaryDark">@color/colorBar</item>
+        <item name="colorAccent">@color/colorOther</item>
+        <item name="android:windowBackground">@drawable/bg_gradient</item>
+        <item name="android:textColor">@color/colorText</item>
+
+        <item name="buttonStyle">@style/ButtonStyle</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:background">@drawable/bg_button</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

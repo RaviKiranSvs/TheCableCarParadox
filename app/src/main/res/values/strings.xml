@@ -1,0 +1,107 @@
+<resources>
+    <!-- Basic names -->
+    <string name="app_name">The Cable Car Paradox</string>
+    <string name="uox">UNORTHODOX</string>
+
+    <!-- Button names -->
+    <string name="next">NEXT</string>
+    <string name="restart">Replay</string>
+    
+    <!-- URLs -->
+    <string name="url_title">The Cable Car Paradox just got Real</string>
+    <string name="url_link">https://uox.home.blog/2018/10/29/thecablecarparadox/</string>
+
+    <!-- Image descriptions -->
+    <string name="Image_content">Image showing the problem</string>
+    <string name="uox_logo">This is the logo of the developer of the App</string>
+    <string name="app_logo">This is the logo of the App</string>
+
+    <!-- Casual strings -->
+    <string name="also_visit">Also Visit:</string>
+
+    <!-- Sample texts -->
+    <string name="sample_text">{---Text goes here---}</string>
+    <string name="sample_button_text">Button</string>
+    <string name="sample_title">Sample Title Problem</string>
+    <string name="sample_description">Here is a Multiline description. Assume you have a problem,
+    that problem will be described here. It will be there in detail. You can press either the act
+    button or let it go. You\'ll have to face the consequences. Will you pull the lever?</string>
+    <string name="sample_action">ACT</string>
+
+    <!-- Level Count = 5 -->
+    <string-array name="titles">
+        <item>The Trolley Problem</item>        <!-- level 0 -->
+        <item>The Fat-person</item>             <!-- level 1 -->
+        <item>The Fat-villain</item>            <!-- level 2 -->
+        <item>The Loop variant</item>           <!-- level 3 -->
+        <item>The One in the Yard</item>        <!-- level 4 -->
+    </string-array>
+
+    <string-array name="descriptions">
+        <item>
+            A trolley is headed towards five people tied-up to the track. You are near a lever that
+            could divert the trolley to an alternate track when pulled. However, the alternate
+            track has another person tied to it, who would die if you pull the lever.\n
+            Your options are:\n
+            * Do nothing and the trolley kills five people on the main track.\n
+            * Pull the lever, diverting the trolley onto the alternate track where it will kill one person.\n
+            What would you do?
+        </item>
+        <item>
+            A trolley is headed towards five people tied-up to the track. You are on a bridge under
+            which it will pass. Beside you is a sufficiently heavy person who can stop the trolley
+            when hit by it.\n
+            Your options are:\n
+            * Do nothing and the trolley kills five people on the main track.\n
+            * Push the heavy person on the track, who stops the trolley upon hitting and dying, but
+            saves the five people.\n
+            What would you do?
+        </item>
+        <item>
+            The case is same as before, but the heavy person in this case is the one directly
+            responsible for the five people to be tied on the main track.\n
+            Your options are:\n
+            * Do nothing and the trolley kills five people on the main track while the Fat person
+            enjoys.\n
+            * Push the Fat person on the track to stops the trolley and save the five people.\n
+            What would you do?
+        </item>
+        <item>
+            A trolley is headed towards five people tied-up to the track. But here, the main track
+            rejoins the alternate track forming a loop. However, the alternate track has
+            another person tied to it, who is heavy enough to stop the trolley when hit.\n
+            Your options are:\n
+            * Do nothing and the trolley kills five people on the main track and stops, saving the
+            heavy person on the alternate track.\n
+            * Pull the lever, diverting the trolley onto the alternate track where it will kill
+            the heavy person, saving five people on the main track.\n
+            What would you do?
+        </item>
+        <item>
+            A trolley is headed towards five people tied-up to the track. You are near a lever that
+            could derail the trolley and send it downhill when pulled. The trolley will then head
+            towards a yard where a person is gardening and kill him.\n
+            Your options are:\n
+            * Do nothing and the trolley kills five people on the main track.\n
+            * Pull the lever, derailing the trolley into the yard where it will kill a person,
+            saving five people on the main track.\n
+            What would you do?
+        </item>
+    </string-array>
+
+    <string-array name="actions">
+        <item>PULL THE LEVER</item>
+        <item>PUSH</item>
+        <item>PUSH</item>
+        <item>PULL THE LEVER</item>
+        <item>PULL THE LEVER</item>
+    </string-array>
+
+    <array name="images">
+        <item>@drawable/trolley_problem_original</item>
+        <item>@drawable/trolley_problem_fat_one</item>
+        <item>@drawable/trolley_problem_fat_villain</item>
+        <item>@drawable/trolley_problem_loop_variant</item>
+        <item>@drawable/trolley_problem_one_in_the_yard</item>
+    </array>
+</resources>
